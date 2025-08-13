@@ -1,0 +1,22 @@
+names:
+- Apple Braeburn 1
+- Apple Red Yellow 1
+- Blackberrie 2
+- Carrot 1
+- Cherry 5
+- Cucumber 4
+- Grape White 3
+- Kiwi 1
+- Limes 1
+- Mangostan 1
+- Nut 5
+nc: 11
+roboflow:
+  license: CC BY 4.0
+  project: fruitdetection-x6tde
+  url: https://universe.roboflow.com/detectionfortrianing/fruitdetection-x6tde/dataset/2
+  version: 2
+  workspace: detectionfortrianing
+test: ../test/images
+train: ../train/images
+val: ../valid/images
