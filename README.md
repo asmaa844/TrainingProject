@@ -10,11 +10,19 @@ Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image 
 
 2. **Object Detection (YOLO)**  
    - Trains a YOLO model to detect fruits in images.
-   - Uses 20–30 manually annotated images.
+   - Uses 60-85 manually annotated images.
    - Displays detection results.
 
 3. **Image Generation (GAN)** *(Bonus)*  
    - Implements a simple GAN to generate synthetic fruit images.
+  
+   ##  Project Structure
+
+```
+classification/     # CNN + ResNet50 training code and weights
+object_detection/   # YOLO training code, config, and weights
+gan/                # GAN code and generated samples
+```
 
 ### Prerequisites
 
