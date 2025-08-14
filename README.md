@@ -55,7 +55,7 @@ It uses **ResNet50** for classification, **YOLOv8** for object detection, and a 
 Install with:
 ```bash
 pip install tensorflow keras opencv-python pillow matplotlib seaborn numpy pandas scikit-learn torch torchvision
-
+```
 
 ### Dataset 
    - Download Fruits360 Dataset from Kaggle:  
