@@ -1,6 +1,21 @@
 # TrainingProject
 Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image Generation with GAN This project classifies fruits using a ResNet-based CNN, detects them with YOLOv8, and generates realistic fruit images using a GAN model.
 
+## This project contains solutions for the following tasks:
+
+1. **Image Classification (Transfer Learning)**  
+   - Uses ResNet50 for fruit classification.
+   - Fine-tunes the last layers.
+   - Evaluates using accuracy and confusion matrix.
+
+2. **Object Detection (YOLO)**  
+   - Trains a YOLO model to detect fruits in images.
+   - Uses 20–30 manually annotated images.
+   - Displays detection results.
+
+3. **Image Generation (GAN)** *(Bonus)*  
+   - Implements a simple GAN to generate synthetic fruit images.
+
 ### Prerequisites
 
 * **Python:** Ensure you have Python installed. The notebook uses Python 3.11.13.
@@ -34,7 +49,7 @@ Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image 
     * It is recommended to use a virtual environment.
     * You can install the required libraries using pip:
         ```bash
-        pip install numpy pandas matplotlib seaborn tensorflow keras
+        pip install tensorflow keras opencv-python pillow matplotlib seaborn numpy pandas scikit-learn torch torchvision
         ```
 4.  **Open the Jupyter notebook:**
     ```bash
