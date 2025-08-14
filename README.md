@@ -18,7 +18,7 @@ It uses **ResNet50** for classification, **YOLOv8** for object detection, and a 
     * Dataset: ~60–85 manually annotated fruit images.
     * Visualizes bounding boxes and detection results.
 
-* **Image Generation (GAN) (Bonus)**
+* **Image Generation (GAN) **
     * Implements a simple GAN architecture.
     * Generates synthetic fruit images for augmentation or visualization.
 
