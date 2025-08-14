@@ -13,9 +13,12 @@ Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image 
     * tensorflow
     * keras
 
-### Data
 
-* The code assumes the "fruits-360" dataset is located at `/kaggle/input/fruits/fruits-360_100x100/fruits-360/`. You will need to download this dataset and place it in the correct directory, or update the file paths (`train_dir` and `test_dir`) in the notebook to match your local file structure.
+
+### Dataset 
+   - Download Fruits360 Dataset from Kaggle:  
+     https://www.kaggle.com/datasets/moltean/fruits  
+   - Place it in a `data/` folder.
 
 ### How to Run the Code
 
