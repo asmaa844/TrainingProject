@@ -24,11 +24,11 @@ Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/asmaa844/TrainingProject.git>
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd <your-project-directory>
+    cd <TrainingProject>
     ```
 3.  **Install dependencies:**
     * It is recommended to use a virtual environment.
