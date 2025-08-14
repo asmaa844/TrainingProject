@@ -1,41 +1,63 @@
-# TrainingProject
-Fruit360 Dataset – Classification with ResNet, Detection with YOLO, and Image Generation with GAN This project classifies fruits using a ResNet-based CNN, detects them with YOLOv8, and generates realistic fruit images using a GAN model.
+### TrainingProject – Main Assignment 4
 
-## This project contains solutions for the following tasks:
+This project implements **fruit image classification**, **object detection**, and **image generation** as part of Main Assignment 4.
 
-1. **Image Classification (Transfer Learning)**  
-   - Uses ResNet50 for fruit classification.
-   - Fine-tunes the last layers.
-   - Evaluates using accuracy and confusion matrix.
+It uses **ResNet50** for classification, **YOLOv8** for object detection, and a **GAN** to generate synthetic fruit images.
 
-2. **Object Detection (YOLO)**  
-   - Trains a YOLO model to detect fruits in images.
-   - Uses 60-85 manually annotated images.
-   - Displays detection results.
+***
 
-3. **Image Generation (GAN)** *(Bonus)*  
-   - Implements a simple GAN to generate synthetic fruit images.
-  
-   ##  Project Structure
+### Tasks Overview
+
+* **Image Classification (Transfer Learning)**
+    * Uses ResNet50 pre-trained on ImageNet.
+    * Fine-tunes the last layers for fruit classification.
+    * Evaluates performance with accuracy scores and confusion matrix plots.
+
+* **Object Detection (YOLOv8)**
+    * Trains a YOLO model to detect fruits in images.
+    * Dataset: ~60–85 manually annotated fruit images.
+    * Visualizes bounding boxes and detection results.
+
+* **Image Generation (GAN) (Bonus)**
+    * Implements a simple GAN architecture.
+    * Generates synthetic fruit images for augmentation or visualization.
+
+***
+
+### Project Structure
 
 ```
-classification/     # CNN + ResNet50 training code and weights
-object_detection/   # YOLO training code, config, and weights
-gan/                # GAN code and generated samples
+
+classification/         \# ResNet50 training code & weights
+object\_detection/       \# YOLOv8 training scripts, config, and weights
+gan/                    \# GAN code & generated fruit samples
+data/                   \# Fruits360 dataset (download separately)
+maim-assignment-4.ipynb \# Main assignment notebook
+
 ```
 
-### Prerequisites
+***
 
-* **Python:** Ensure you have Python installed. The notebook uses Python 3.11.13.
-* **Jupyter:** You will need Jupyter Notebook or JupyterLab to open and run the `.ipynb` file.
-* **Dependencies:** The following libraries are imported and are required to run the code:
+### Requirements
+
+* **Python:** 3.11.13
+* **Jupyter Notebook or JupyterLab**
+* **Dependencies:**
     * numpy
     * pandas
     * matplotlib
     * seaborn
     * tensorflow
     * keras
-
+    * torch
+    * torchvision
+    * opencv-python
+    * pillow
+    * scikit-learn
+      
+Install with:
+```bash
+pip install tensorflow keras opencv-python pillow matplotlib seaborn numpy pandas scikit-learn torch torchvision
 
 
 ### Dataset 
