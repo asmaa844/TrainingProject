@@ -27,9 +27,9 @@ It uses **ResNet50** for classification, **YOLOv8** for object detection, and a 
 ### Project Structure
 
 
-- **GANModel/**: Generates fruit images using a GAN.  
-- **YOLOModel/**: Performs object detection using YOLO. Includes model files, weights, and dataset config.  
-- **ResnetModel/**: Performs fruit classification using ResNet, with the model and its pretrained weights.  
+- **gan/**: Generates fruit images using a GAN.  
+- **object_detection/**: Performs object detection using YOLO. Includes model files, weights, and dataset config.  
+- **classification/**: Performs fruit classification using ResNet, with the model and its pretrained weights.  
 - **main_assignment_4.ipynb**: Notebook that combines the code for all three models.  
 
 
